@@ -4,7 +4,7 @@ import interfaces.Upgradable;
 
 import java.util.ArrayList;
 
-public class Block extends Phnome implements Upgradable {
+public class Block extends Phenom implements Upgradable {
     ArrayList<Home> homes;
     private Defender defence;
     Attacker attacker;

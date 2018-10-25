@@ -1,5 +1,5 @@
 package models;
 
-public class Person extends Phnome {
+public class Person extends Phenom {
 
 }

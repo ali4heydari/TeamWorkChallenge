@@ -1,3 +1,3 @@
 package models;
-public class Welfare extends Phnome {
+public abstract class Welfare extends Phenom {
 }

@@ -4,7 +4,7 @@ import interfaces.Upgradable;
 
 import java.util.ArrayList;
 
-public class Home extends Phnome implements Upgradable {
+public class Home extends Phenom implements Upgradable {
     ArrayList<Floor> floors;
 
     public void Upgrade() {
