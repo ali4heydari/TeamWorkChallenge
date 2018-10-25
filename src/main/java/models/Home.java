@@ -10,4 +10,9 @@ public class Home extends Phenom implements Upgradable {
     public void Upgrade() {
 
     }
+
+    @Override
+    public void destroy() {
+
+    }
 }

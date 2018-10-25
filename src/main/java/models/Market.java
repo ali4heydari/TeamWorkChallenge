@@ -18,4 +18,9 @@ public class Market extends Welfare implements Pointable, Incomeable, Upgradable
     public void Upgrade() {
 
     }
+
+    @Override
+    public void destroy() {
+
+    }
 }
