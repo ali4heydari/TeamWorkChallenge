@@ -1,5 +1,5 @@
 package interfaces;
 
-public interface pointable {
+public interface Pointable {
     void getPoint();
 }

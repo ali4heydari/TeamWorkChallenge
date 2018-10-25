@@ -1,11 +1,16 @@
 package models;
 
+import interfaces.Upgradable;
+
 import java.util.ArrayList;
 
-public class Block extends Phnome {
+public class Block extends Phnome implements Upgradable {
     ArrayList<Home> homes;
-    Defence defence;
-    Attack attack;
+    private Defender defence;
+    Attacker attacker;
 
 
+    public void Upgrade() {
+
+    }
 }
