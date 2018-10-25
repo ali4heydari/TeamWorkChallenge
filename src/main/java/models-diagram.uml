@@ -3,147 +3,147 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="428.0000000000001" y="0.0">interfaces.Upgradable</node>
-    <node x="1207.125" y="427.5">models.Attacker</node>
-    <node x="775.5" y="237.0">models.Home</node>
-    <node x="1387.8985849056605" y="447.1361185983827">models.Defender</node>
-    <node x="1328.125" y="259.5">models.Army</node>
-    <node x="903.0" y="0.0">interfaces.Destroyable</node>
-    <node x="554.5" y="204.0">models.Block</node>
-    <node x="576.2161458333334" y="417.0">models.Market</node>
-    <node x="355.5" y="237.0">models.Floor</node>
-    <node x="10.5" y="181.0">models.City</node>
-    <node x="462.0" y="580.0">controllers.HomeColtroller</node>
-    <node x="258.0" y="580.0">models.Player</node>
-    <node x="985.5" y="259.5">models.Welfare</node>
-    <node x="1424.125" y="237.5">models.Unit</node>
-    <node x="1649.125" y="259.5">models.Person</node>
-    <node x="0.0" y="580.0">controllers.BlockController</node>
-    <node x="935.0" y="580.0">controllers.FloorController</node>
-    <node x="209.5" y="248.5">interfaces.Incomeable</node>
-    <node x="698.0" y="580.0">controllers.CityController</node>
-    <node x="1094.5" y="248.5">interfaces.Pointable</node>
+    <node x="395.875" y="0.0">interfaces.Upgradable</node>
+    <node x="169.0" y="387.0">models.Attacker</node>
+    <node x="690.7838541666666" y="207.0">models.Home</node>
+    <node x="0.0" y="421.0">models.Defender</node>
+    <node x="143.2265625" y="229.5">models.Army</node>
+    <node x="904.75" y="0.0">interfaces.Destroyable</node>
+    <node x="900.7838541666667" y="174.0">models.Block</node>
+    <node x="1156.7578125" y="387.5">models.Market</node>
+    <node x="292.78385416666663" y="196.0">models.Floor</node>
+    <node x="491.78385416666663" y="151.0">models.City</node>
+    <node x="495.0" y="551.0">controllers.HomeColtroller</node>
+    <node x="735.0" y="551.0">models.Player</node>
+    <node x="1537.7838541666667" y="229.5">models.Welfare</node>
+    <node x="1646.7838541666667" y="207.5">models.Unit</node>
+    <node x="1434.7838541666667" y="229.5">models.Person</node>
+    <node x="0.0" y="551.0">controllers.BlockController</node>
+    <node x="939.0" y="551.0">controllers.FloorController</node>
+    <node x="1121.7838541666667" y="218.5">interfaces.Incomeable</node>
+    <node x="258.0" y="551.0">controllers.CityController</node>
+    <node x="1267.7838541666667" y="218.5">interfaces.Pointable</node>
   </nodes>
   <notes />
   <edges>
     <edge source="models.Attacker" target="models.Army">
-      <point x="0.0" y="-48.5" />
-      <point x="1281.625" y="397.0" />
-      <point x="1347.125" y="397.0" />
-      <point x="-19.0" y="14.5" />
+      <point x="0.0" y="-59.5" />
+      <point x="243.5" y="367.0" />
+      <point x="200.2265625" y="367.0" />
+      <point x="19.0" y="14.5" />
     </edge>
     <edge source="models.Market" target="interfaces.Incomeable">
       <point x="-20.25" y="-59.0" />
-      <point x="636.9661458333334" y="387.0" />
-      <point x="272.5" y="387.0" />
+      <point x="1217.5078125" y="367.0" />
+      <point x="1184.7838541666667" y="367.0" />
       <point x="0.0" y="25.5" />
     </edge>
     <edge source="models.Market" target="interfaces.Pointable">
-      <point x="60.75" y="-59.0" />
-      <point x="717.9661458333334" y="397.0" />
-      <point x="1168.0" y="397.0" />
+      <point x="20.25" y="-59.0" />
+      <point x="1258.0078125" y="357.0" />
+      <point x="1341.2838541666667" y="357.0" />
       <point x="0.0" y="25.5" />
     </edge>
     <edge source="models.Defender" target="models.Army">
       <point x="0.0" y="-25.5" />
-      <point x="1450.625" y="397.0" />
-      <point x="1385.125" y="397.0" />
-      <point x="19.0" y="14.5" />
+      <point x="74.5" y="367.0" />
+      <point x="162.2265625" y="367.0" />
+      <point x="-19.0" y="14.5" />
     </edge>
     <edge source="models.Unit" target="interfaces.Destroyable">
       <point x="0.0" y="-36.5" />
-      <point x="1526.625" y="81.0" />
-      <point x="1018.375" y="81.0" />
-      <point x="44.375" y="25.5" />
+      <point x="1749.2838541666667" y="101.0" />
+      <point x="1037.875" y="101.0" />
+      <point x="62.125" y="25.5" />
     </edge>
     <edge source="models.Market" target="interfaces.Upgradable">
       <point x="-60.75" y="-59.0" />
-      <point x="596.4661458333334" y="397.0" />
-      <point x="0.0" y="397.0" />
-      <point x="0.0" y="101.0" />
-      <point x="440.4166666666668" y="101.0" />
-      <point x="-62.083333333333314" y="25.5" />
+      <point x="1177.0078125" y="367.0" />
+      <point x="282.28385416666674" y="367.0" />
+      <point x="282.28385416666674" y="81.0" />
+      <point x="433.125" y="81.0" />
+      <point x="-37.25" y="25.5" />
     </edge>
     <edge source="models.Floor" target="interfaces.Destroyable">
-      <point x="44.75" y="-37.0" />
-      <point x="489.75" y="141.0" />
-      <point x="929.625" y="141.0" />
+      <point x="44.75" y="-48.0" />
+      <point x="427.03385416666663" y="111.0" />
+      <point x="931.375" y="111.0" />
       <point x="-44.375" y="25.5" />
     </edge>
     <edge source="models.Block" target="interfaces.Destroyable">
       <point x="50.25" y="-70.0" />
-      <point x="705.25" y="151.0" />
-      <point x="947.375" y="151.0" />
-      <point x="-26.625" y="25.5" />
+      <point x="1051.5338541666667" y="131.0" />
+      <point x="984.625" y="131.0" />
+      <point x="8.875" y="25.5" />
     </edge>
     <edge source="models.City" target="interfaces.Destroyable">
       <point x="44.75" y="-93.0" />
-      <point x="144.75" y="131.0" />
-      <point x="911.875" y="131.0" />
-      <point x="-62.125" y="25.5" />
+      <point x="626.0338541666666" y="121.0" />
+      <point x="949.125" y="121.0" />
+      <point x="-26.625" y="25.5" />
     </edge>
     <edge source="models.Person" target="interfaces.Destroyable">
       <point x="0.0" y="-14.5" />
-      <point x="1690.625" y="71.0" />
-      <point x="1036.125" y="71.0" />
-      <point x="62.125" y="25.5" />
+      <point x="1476.2838541666667" y="121.0" />
+      <point x="1002.375" y="121.0" />
+      <point x="26.625" y="25.5" />
     </edge>
     <edge source="models.Home" target="interfaces.Upgradable">
       <point x="-47.5" y="-37.0" />
-      <point x="823.0" y="111.0" />
-      <point x="539.7500000000001" y="111.0" />
+      <point x="738.2838541666666" y="81.0" />
+      <point x="507.625" y="81.0" />
       <point x="37.25" y="25.5" />
     </edge>
     <edge source="models.Army" target="interfaces.Upgradable">
       <point x="-19.0" y="-14.5" />
-      <point x="1347.125" y="101.0" />
-      <point x="564.5833333333334" y="101.0" />
-      <point x="62.08333333333326" y="25.5" />
+      <point x="162.2265625" y="71.0" />
+      <point x="408.2916666666667" y="71.0" />
+      <point x="-62.083333333333314" y="25.5" />
     </edge>
     <edge source="models.Block" target="interfaces.Upgradable">
       <point x="-50.25" y="-70.0" />
-      <point x="604.75" y="121.0" />
-      <point x="514.9166666666667" y="121.0" />
-      <point x="12.416666666666629" y="25.5" />
+      <point x="951.0338541666667" y="71.0" />
+      <point x="532.4583333333334" y="71.0" />
+      <point x="62.08333333333337" y="25.5" />
     </edge>
     <edge source="models.City" target="interfaces.Upgradable">
       <point x="-44.75" y="-93.0" />
-      <point x="55.25" y="111.0" />
-      <point x="465.2500000000001" y="111.0" />
-      <point x="-37.25" y="25.5" />
+      <point x="536.5338541666666" y="91.0" />
+      <point x="482.79166666666663" y="91.0" />
+      <point x="12.416666666666629" y="25.5" />
     </edge>
     <edge source="models.Home" target="interfaces.Destroyable">
       <point x="47.5" y="-37.0" />
-      <point x="918.0" y="161.0" />
-      <point x="965.125" y="161.0" />
+      <point x="833.2838541666666" y="131.0" />
+      <point x="966.875" y="131.0" />
       <point x="-8.875" y="25.5" />
     </edge>
     <edge source="models.Market" target="models.Welfare">
-      <point x="20.25" y="-59.0" />
-      <point x="677.4661458333334" y="387.0" />
-      <point x="1030.0" y="387.0" />
+      <point x="60.75" y="-59.0" />
+      <point x="1298.5078125" y="367.0" />
+      <point x="1582.2838541666667" y="367.0" />
       <point x="0.0" y="14.5" />
     </edge>
     <edge source="models.Army" target="interfaces.Destroyable">
       <point x="19.0" y="-14.5" />
-      <point x="1385.125" y="91.0" />
-      <point x="1000.625" y="91.0" />
-      <point x="26.625" y="25.5" />
+      <point x="200.2265625" y="101.0" />
+      <point x="913.625" y="101.0" />
+      <point x="-62.125" y="25.5" />
     </edge>
     <edge source="models.Welfare" target="interfaces.Destroyable">
       <point x="0.0" y="-14.5" />
-      <point x="1030.0" y="161.0" />
-      <point x="982.875" y="161.0" />
-      <point x="8.875" y="25.5" />
+      <point x="1582.2838541666667" y="111.0" />
+      <point x="1020.125" y="111.0" />
+      <point x="44.375" y="25.5" />
     </edge>
     <edge source="models.Floor" target="interfaces.Upgradable">
-      <point x="-44.75" y="-37.0" />
-      <point x="400.25" y="121.0" />
-      <point x="490.0833333333334" y="121.0" />
+      <point x="-44.75" y="-48.0" />
+      <point x="337.53385416666663" y="91.0" />
+      <point x="457.9583333333333" y="91.0" />
       <point x="-12.416666666666686" y="25.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.594551282051282" x="926.0" y="389.0" />
+  <settings layout="Hierarchic Group" zoom="0.5945512820512822" x="870.6908899635476" y="345.04230218536895" />
   <SelectedNodes>
     <node>models.Defender</node>
   </SelectedNodes>

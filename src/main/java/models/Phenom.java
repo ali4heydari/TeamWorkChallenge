@@ -9,7 +9,6 @@ public abstract class Phenom implements Destroyable {
     private static final int DEFAULT_LEVEL = 1;
     private static final int DEFAULT_ID = 1;
 
-
     public Phenom(int level, int id) {
         setLevel(level);
         setId(id);
@@ -19,6 +18,14 @@ public abstract class Phenom implements Destroyable {
         setLevel(DEFAULT_LEVEL);
         setId(DEFAULT_ID);
 
+    }
+
+    public int getLifeDays() {
+        return lifeDays;
+    }
+
+    public void setLifeDays(int lifeDays) {
+        this.lifeDays = lifeDays;
     }
 
     public int getLevel() {
