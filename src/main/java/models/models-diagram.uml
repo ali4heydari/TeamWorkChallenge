@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="785.0">com</node>
+    <node x="378.5" y="503.0">models.Phnome</node>
+    <node x="0.0" y="711.0">interfaces</node>
+    <node x="175.0" y="711.0">netscape</node>
+    <node x="346.0" y="711.0">oracle</node>
+    <node x="217.5" y="358.0">models.Attack</node>
+    <node x="292.0" y="785.0">sun</node>
+    <node x="433.0" y="785.0">jdk</node>
+    <node x="7.5" y="347.0">models.Home</node>
+    <node x="257.45" y="180.0">models.Army</node>
+    <node x="0.0" y="79.0">models.Unit</node>
+    <node x="147.0" y="785.0">java</node>
+    <node x="61.0" y="0.0">models.Person</node>
+    <node x="658.0" y="711.0">javax</node>
+    <node x="157.5" y="470.0">models.Block</node>
+    <node x="520.0" y="79.0">models.Market</node>
+    <node x="318.5" y="325.0">models.Defence</node>
+    <node x="651.5" y="0.0">controllers</node>
+    <node x="503.0" y="711.0">javafx</node>
+    <node x="13.0" y="202.0">models.Floor</node>
+    <node x="517.5" y="0.0">models.Walfare</node>
+    <node x="243.5" y="615.0">models.City</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="models.Block" target="models.Attack">
+      <point x="0.0" y="-47.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="models.Attack" target="models.Army">
+      <point x="0.0" y="-14.5" />
+      <point x="258.0" y="300.0" />
+      <point x="293.45" y="300.0" />
+      <point x="-36.0" y="47.5" />
+    </edge>
+    <edge source="models.Defence" target="models.Army">
+      <point x="0.0" y="-47.5" />
+      <point x="395.5" y="300.0" />
+      <point x="365.45" y="300.0" />
+      <point x="36.0" y="47.5" />
+    </edge>
+    <edge source="models.Market" target="models.Walfare">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="models.Home" target="models.Floor">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="models.Unit" target="models.Person">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="models.Floor" target="models.Unit">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="models.Block" target="models.Defence">
+      <point x="67.0" y="-47.5" />
+      <point x="325.0" y="445.0" />
+      <point x="395.5" y="445.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="models.Block" target="models.Home">
+      <point x="-67.0" y="-47.5" />
+      <point x="191.0" y="445.0" />
+      <point x="102.5" y="445.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="models.City" target="models.Phnome">
+      <point x="48.75" y="-25.5" />
+      <point x="389.75" y="590.0" />
+      <point x="424.0" y="590.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="models.City" target="models.Block">
+      <point x="-48.75" y="-25.5" />
+      <point x="292.25" y="590.0" />
+      <point x="258.0" y="590.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.4000000000000001" x="114.13003663003661" y="470.06410256410254" />
+  <SelectedNodes>
+    <node>models.Army</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

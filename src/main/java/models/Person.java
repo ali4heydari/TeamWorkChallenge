@@ -1,5 +1,5 @@
 package models;
 
-public class Person {
+public class Person extends Phnome {
 
 }
