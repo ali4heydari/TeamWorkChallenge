@@ -1,6 +1,6 @@
 package models;
 
-public class Defence extends Army {
+public class Defender extends Army {
 
     public void Upgrade() {
 
