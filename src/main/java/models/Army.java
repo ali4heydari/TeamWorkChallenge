@@ -1,6 +1,6 @@
 package models;
 
-public class Army extends Phnome {
+public abstract class Army extends Phnome {
 
 
 }
