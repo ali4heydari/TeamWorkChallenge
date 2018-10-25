@@ -1,9 +1,11 @@
 package controllers;
 
 import models.Block;
+import views.BlockView;
 
 public class BlockController {
     private Block block;
+    private BlockView blockView;
 
     public boolean addHome() {
         return false;

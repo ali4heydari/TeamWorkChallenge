@@ -15,4 +15,9 @@ public class Home extends Phenom implements Upgradable {
     public void destroy() {
 
     }
+
+    @Override
+    public boolean Upgrade(int id) {
+        return false;
+    }
 }
