@@ -1,9 +1,21 @@
 package models;
 
-public class Attack extends Army {
+import interfaces.Upgradable;
 
-    private int attackLevel;
-    private int unitId;
-    private int blockId;
+public class Attack extends Army{
+    private Attack _instance;
+
+
+    private Attack() {
+        return;
+    }
+
+    public Attack get_instance() {
+        return _instance;
+    }
+
+    public void Upgrade() {
+
+    }
 }
 

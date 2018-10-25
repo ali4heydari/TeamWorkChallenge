@@ -1,6 +1,8 @@
 package models;
 
-public abstract class Army extends Phnome {
+import interfaces.Upgradable;
+
+public abstract class Army extends Phnome implements Upgradable {
 
 
 }
