@@ -2,7 +2,7 @@ package models;
 
 import java.util.ArrayList;
 
-public class Unit extends Phnome {
+public class Unit extends Phenom {
     ArrayList<Person> people;
     private final int CAPACITY = 5;
 }
