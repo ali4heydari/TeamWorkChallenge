@@ -13,4 +13,8 @@ public class Block extends Phenom implements Upgradable {
     public void Upgrade() {
 
     }
+
+    public void destroy() {
+
+    }
 }

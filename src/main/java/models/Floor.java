@@ -10,4 +10,8 @@ public class Floor extends Phenom implements Upgradable {
     public void Upgrade() {
 
     }
+
+    public void destroy() {
+
+    }
 }

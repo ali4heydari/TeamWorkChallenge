@@ -28,9 +28,6 @@ public class City  extends Phenom implements Upgradable {
         this.blocks = blocks;
     }
 
-    public static int getInitialFund() {
-        return INITIAL_FUND;
-    }
 
     public int getFund() {
         return fund;
