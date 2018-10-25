@@ -1,4 +1,4 @@
 package models;
-public class Market extends Walfare {
+public class Market extends Welfare {
 
 }

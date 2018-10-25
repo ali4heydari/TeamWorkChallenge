@@ -1,6 +1,6 @@
 package models;
 
-public class Army {
+public class Army extends Phnome {
 
     private int attackLevel;
     private int unitId;
