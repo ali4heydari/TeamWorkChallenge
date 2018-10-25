@@ -5,6 +5,7 @@ import interfaces.Destroyable;
 public abstract class Phenom implements Destroyable {
     protected int level;
     protected int id;
+    protected int lifeDays;
     private static final int DEFAULT_LEVEL = 1;
     private static final int DEFAULT_ID = 1;
 
