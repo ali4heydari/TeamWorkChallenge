@@ -18,4 +18,12 @@ public class Market extends Welfare implements Pointable, Incomeable, Upgradable
     public void Upgrade() {
 
     }
+
+    public void destroy() {
+
+    }
+
+    public boolean Upgrade(int id) {
+        return false;
+    }
 }

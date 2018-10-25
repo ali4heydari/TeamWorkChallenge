@@ -32,7 +32,7 @@ public abstract class Phenom implements Destroyable {
         return level;
     }
 
-    private void setLevel(int level) {
+    protected void setLevel(int level) {
         this.level = level;
     }
 
@@ -40,7 +40,7 @@ public abstract class Phenom implements Destroyable {
         return id;
     }
 
-    private void setId(int id) {
+    protected void setId(int id) {
         this.id = id;
     }
 
