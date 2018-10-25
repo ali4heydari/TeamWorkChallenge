@@ -1,6 +1,13 @@
 package controllers;
 
+import models.City;
+
 public class CityController {
+    private City city;
+
+    public CityController(City city) {
+        this.city = city;
+    }
 
     public boolean setFund() {
         return false;

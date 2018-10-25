@@ -15,5 +15,9 @@ public class Attacker extends Army{
     public void Upgrade() {
 
     }
+
+    public void destroy() {
+
+    }
 }
 
