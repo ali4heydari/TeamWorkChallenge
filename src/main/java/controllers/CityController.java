@@ -1,6 +1,7 @@
 package controllers;
 
 public class CityController {
+
     public boolean setFund() {
         return false;
     }

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="814.0" y="611.0">com</node>
+    <node x="791.2124999999999" y="102.0">models.Phnome</node>
+    <node x="180.0" y="611.0">netscape</node>
+    <node x="351.0" y="611.0">oracle</node>
+    <node x="784.4624999999999" y="468.0">models.Attack</node>
+    <node x="412.62499999999994" y="124.5">interfaces.Upgradable</node>
+    <node x="1106.0" y="611.0">sun</node>
+    <node x="1247.0" y="611.0">jdk</node>
+    <node x="331.4624999999999" y="332.5">models.Home</node>
+    <node x="736.4624999999999" y="343.5">models.Army</node>
+    <node x="1264.4624999999999" y="321.5">models.Unit</node>
+    <node x="961.0" y="611.0">java</node>
+    <node x="791.2124999999999" y="0.0">interfaces.Destroyable</node>
+    <node x="1487.4624999999999" y="343.5">models.Person</node>
+    <node x="663.0" y="611.0">javax</node>
+    <node x="1045.4624999999999" y="310.5">models.Block</node>
+    <node x="103.89999999999986" y="299.0">models.Market</node>
+    <node x="617.4624999999999" y="491.0">models.Defence</node>
+    <node x="0.0" y="611.0">controllers</node>
+    <node x="508.0" y="611.0">javafx</node>
+    <node x="539.4624999999999" y="321.0">models.Floor</node>
+    <node x="0.0" y="124.5">interfaces.Incomeable</node>
+    <node x="832.4624999999999" y="310.5">models.City</node>
+    <node x="144.0" y="124.5">interfaces.Pointable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="models.Attack" target="models.Army">
+      <point x="0.0" y="-49.0" />
+      <point x="857.9624999999999" y="443.0" />
+      <point x="793.4624999999999" y="443.0" />
+      <point x="19.0" y="15.0" />
+    </edge>
+    <edge source="models.Market" target="interfaces.Incomeable">
+      <point x="-60.0" y="-59.5" />
+      <point x="123.89999999999986" y="279.0" />
+      <point x="62.0" y="279.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="models.Market" target="interfaces.Pointable">
+      <point x="-20.0" y="-59.5" />
+      <point x="163.89999999999986" y="219.0" />
+      <point x="216.5" y="219.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="models.Phnome" target="interfaces.Destroyable">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="models.Market" target="interfaces.Upgradable">
+      <point x="20.0" y="-59.5" />
+      <point x="203.89999999999986" y="229.0" />
+      <point x="430.99999999999994" y="229.0" />
+      <point x="-55.125" y="26.0" />
+    </edge>
+    <edge source="models.Home" target="interfaces.Upgradable">
+      <point x="-47.0" y="-26.0" />
+      <point x="378.4624999999999" y="239.0" />
+      <point x="467.74999999999994" y="239.0" />
+      <point x="-18.375" y="26.0" />
+    </edge>
+    <edge source="models.Army" target="models.Phnome">
+      <point x="19.0" y="-15.0" />
+      <point x="793.4624999999999" y="279.0" />
+      <point x="852.4624999999999" y="279.0" />
+      <point x="-8.75" y="48.5" />
+    </edge>
+    <edge source="models.Defence" target="models.Army">
+      <point x="0.0" y="-26.0" />
+      <point x="690.9624999999999" y="443.0" />
+      <point x="755.4624999999999" y="443.0" />
+      <point x="-19.0" y="15.0" />
+    </edge>
+    <edge source="models.Army" target="interfaces.Upgradable">
+      <point x="-19.0" y="-15.0" />
+      <point x="755.4624999999999" y="229.0" />
+      <point x="541.25" y="229.0" />
+      <point x="55.125" y="26.0" />
+    </edge>
+    <edge source="models.Unit" target="models.Phnome">
+      <point x="0.0" y="-37.0" />
+      <point x="1365.9624999999999" y="259.0" />
+      <point x="904.9624999999999" y="259.0" />
+      <point x="43.75" y="48.5" />
+    </edge>
+    <edge source="models.Block" target="models.Phnome">
+      <point x="0.0" y="-48.0" />
+      <point x="1144.9624999999999" y="269.0" />
+      <point x="887.4624999999999" y="269.0" />
+      <point x="26.25" y="48.5" />
+    </edge>
+    <edge source="models.Market" target="models.Phnome">
+      <point x="60.0" y="-59.5" />
+      <point x="243.89999999999986" y="249.0" />
+      <point x="799.9624999999999" y="249.0" />
+      <point x="-61.25" y="48.5" />
+    </edge>
+    <edge source="models.Home" target="models.Phnome">
+      <point x="47.0" y="-26.0" />
+      <point x="472.4624999999999" y="259.0" />
+      <point x="817.4624999999999" y="259.0" />
+      <point x="-43.75" y="48.5" />
+    </edge>
+    <edge source="models.Person" target="models.Phnome">
+      <point x="0.0" y="-15.0" />
+      <point x="1528.9624999999999" y="249.0" />
+      <point x="922.4624999999999" y="249.0" />
+      <point x="61.25" y="48.5" />
+    </edge>
+    <edge source="models.City" target="models.Phnome">
+      <point x="0.0" y="-48.0" />
+      <point x="928.9624999999999" y="279.0" />
+      <point x="869.9624999999999" y="279.0" />
+      <point x="8.75" y="48.5" />
+    </edge>
+    <edge source="models.Floor" target="interfaces.Upgradable">
+      <point x="-44.25" y="-37.5" />
+      <point x="583.7124999999999" y="239.0" />
+      <point x="504.49999999999994" y="239.0" />
+      <point x="18.375" y="26.0" />
+    </edge>
+    <edge source="models.Floor" target="models.Phnome">
+      <point x="44.25" y="-37.5" />
+      <point x="672.2124999999999" y="269.0" />
+      <point x="834.9624999999999" y="269.0" />
+      <point x="-26.25" y="48.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7459785522788206" x="748.0584926886888" y="339.7500646302169" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
