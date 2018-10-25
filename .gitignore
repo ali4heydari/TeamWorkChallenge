@@ -32,7 +32,7 @@ hs_err_pid*
 .idea/**/tasks.xml
 .idea/**/dictionaries
 .idea/**/shelf
-.idea/misc.xml
+.idea/misc
 
 # Sensitive or high-churn files
 .idea/**/dataSources/
