@@ -3,89 +3,92 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="0.0" y="785.0">com</node>
-    <node x="378.5" y="503.0">models.Phnome</node>
-    <node x="0.0" y="711.0">interfaces</node>
-    <node x="175.0" y="711.0">netscape</node>
-    <node x="346.0" y="711.0">oracle</node>
-    <node x="217.5" y="358.0">models.Attack</node>
-    <node x="292.0" y="785.0">sun</node>
-    <node x="433.0" y="785.0">jdk</node>
-    <node x="7.5" y="347.0">models.Home</node>
-    <node x="257.45" y="180.0">models.Army</node>
-    <node x="0.0" y="79.0">models.Unit</node>
-    <node x="147.0" y="785.0">java</node>
-    <node x="61.0" y="0.0">models.Person</node>
-    <node x="658.0" y="711.0">javax</node>
-    <node x="157.5" y="470.0">models.Block</node>
-    <node x="520.0" y="79.0">models.Market</node>
-    <node x="318.5" y="325.0">models.Defence</node>
-    <node x="651.5" y="0.0">controllers</node>
-    <node x="503.0" y="711.0">javafx</node>
-    <node x="13.0" y="202.0">models.Floor</node>
-    <node x="517.5" y="0.0">models.Walfare</node>
-    <node x="243.5" y="615.0">models.City</node>
+    <node x="989.0" y="428.0">com</node>
+    <node x="704.25" y="0.0">models.Phnome</node>
+    <node x="180.0" y="428.0">interfaces</node>
+    <node x="355.0" y="428.0">netscape</node>
+    <node x="526.0" y="428.0">oracle</node>
+    <node x="0.0" y="288.0">models.Attack</node>
+    <node x="1281.0" y="428.0">sun</node>
+    <node x="0.0" y="502.0">jdk</node>
+    <node x="1178.5" y="165.0">models.Home</node>
+    <node x="738.5" y="165.0">models.Unit</node>
+    <node x="118.5" y="176.0">models.Army</node>
+    <node x="1136.0" y="428.0">java</node>
+    <node x="1388.5" y="176.0">models.Person</node>
+    <node x="838.0" y="428.0">javax</node>
+    <node x="214.5" y="143.0">models.Block</node>
+    <node x="634.5" y="176.0">models.Market</node>
+    <node x="164.0" y="288.0">models.Defence</node>
+    <node x="0.0" y="428.0">controllers</node>
+    <node x="683.0" y="428.0">javafx</node>
+    <node x="435.5" y="165.0">models.Floor</node>
+    <node x="963.5" y="165.0">models.City</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="models.Block" target="models.Attack">
-      <point x="0.0" y="-47.5" />
-      <point x="0.0" y="14.5" />
-    </edge>
     <edge source="models.Attack" target="models.Army">
-      <point x="0.0" y="-14.5" />
-      <point x="258.0" y="300.0" />
-      <point x="293.45" y="300.0" />
-      <point x="-36.0" y="47.5" />
+      <point x="0.0" y="-47.5" />
+      <point x="72.0" y="263.0" />
+      <point x="137.5" y="263.0" />
+      <point x="-19.0" y="14.5" />
     </edge>
     <edge source="models.Defence" target="models.Army">
       <point x="0.0" y="-47.5" />
-      <point x="395.5" y="300.0" />
-      <point x="365.45" y="300.0" />
-      <point x="36.0" y="47.5" />
+      <point x="241.0" y="263.0" />
+      <point x="175.5" y="263.0" />
+      <point x="19.0" y="14.5" />
     </edge>
-    <edge source="models.Market" target="models.Walfare">
+    <edge source="models.Army" target="models.Phnome">
       <point x="0.0" y="-14.5" />
-      <point x="0.0" y="14.5" />
+      <point x="156.5" y="93.0" />
+      <point x="711.0625" y="93.0" />
+      <point x="-47.6875" y="36.5" />
     </edge>
-    <edge source="models.Home" target="models.Floor">
+    <edge source="models.Unit" target="models.Phnome">
       <point x="0.0" y="-25.5" />
-      <point x="0.0" y="25.5" />
+      <point x="841.0" y="123.0" />
+      <point x="765.5625" y="123.0" />
+      <point x="6.8125" y="36.5" />
     </edge>
-    <edge source="models.Unit" target="models.Person">
+    <edge source="models.Block" target="models.Phnome">
+      <point x="0.0" y="-47.5" />
+      <point x="315.0" y="103.0" />
+      <point x="724.6875" y="103.0" />
+      <point x="-34.0625" y="36.5" />
+    </edge>
+    <edge source="models.Market" target="models.Phnome">
+      <point x="0.0" y="-14.5" />
+      <point x="676.5" y="123.0" />
+      <point x="751.9375" y="123.0" />
+      <point x="-6.8125" y="36.5" />
+    </edge>
+    <edge source="models.Home" target="models.Phnome">
       <point x="0.0" y="-25.5" />
-      <point x="0.0" y="14.5" />
+      <point x="1273.5" y="103.0" />
+      <point x="792.8125" y="103.0" />
+      <point x="34.0625" y="36.5" />
     </edge>
-    <edge source="models.Floor" target="models.Unit">
-      <point x="0.0" y="-25.5" />
-      <point x="0.0" y="25.5" />
-    </edge>
-    <edge source="models.Block" target="models.Defence">
-      <point x="67.0" y="-47.5" />
-      <point x="325.0" y="445.0" />
-      <point x="395.5" y="445.0" />
-      <point x="0.0" y="47.5" />
-    </edge>
-    <edge source="models.Block" target="models.Home">
-      <point x="-67.0" y="-47.5" />
-      <point x="191.0" y="445.0" />
-      <point x="102.5" y="445.0" />
-      <point x="0.0" y="25.5" />
+    <edge source="models.Person" target="models.Phnome">
+      <point x="0.0" y="-14.5" />
+      <point x="1430.0" y="93.0" />
+      <point x="806.4375" y="93.0" />
+      <point x="47.6875" y="36.5" />
     </edge>
     <edge source="models.City" target="models.Phnome">
-      <point x="48.75" y="-25.5" />
-      <point x="389.75" y="590.0" />
-      <point x="424.0" y="590.0" />
-      <point x="0.0" y="14.5" />
+      <point x="0.0" y="-25.5" />
+      <point x="1061.0" y="113.0" />
+      <point x="779.1875" y="113.0" />
+      <point x="20.4375" y="36.5" />
     </edge>
-    <edge source="models.City" target="models.Block">
-      <point x="-48.75" y="-25.5" />
-      <point x="292.25" y="590.0" />
-      <point x="258.0" y="590.0" />
-      <point x="0.0" y="47.5" />
+    <edge source="models.Floor" target="models.Phnome">
+      <point x="0.0" y="-25.5" />
+      <point x="525.0" y="113.0" />
+      <point x="738.3125" y="113.0" />
+      <point x="-20.4375" y="36.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.4000000000000001" x="114.13003663003661" y="470.06410256410254" />
+  <settings layout="Hierarchic Group" zoom="0.7023980815347722" x="674.3581415411281" y="389.9832869054315" />
   <SelectedNodes>
     <node>models.Army</node>
   </SelectedNodes>
