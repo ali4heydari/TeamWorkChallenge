@@ -2,6 +2,7 @@ package interfaces;
 
 
 public interface Upgradable {
-    public void Upgrade();
+    public boolean Upgrade(int id);
+
 
 }
